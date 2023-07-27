@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Zanyatie4_Modyl_1_Massiv elem</title>
+</head>
+<style>
+body {
+    background-color:steelblue;
+ 
+}
+</style>
+<body>
+<script>
+
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]; // Объявляем массив и задаем значения его элементов,  от 1 до 10
+var sumElem = 0; // Переменная для суммирования нечетных элементов
+    kolElem=0; //кол-во нечетных элементов
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 !== 0) { // выбор нечетных элементов (если остаток от деления на 2 не равен 0, значит число нечетное)
+        sumElem += arr[i]; // суммирование нечетных элементов
+        kolElem += 1; // подсчет количества нечетных элементов
+    }
+}
+if (kolElem>0) {
+    document.write ('Среднее арифметическое: ' + sumElem / kolElem); //
+}
+
+else {
+  document.write ('Среднее арифметическое не найдено');
+}
+//console.log('Среднее арифметическое: ' + sum/evenCount)
+
+
+</script>
+</body>
+</html>
