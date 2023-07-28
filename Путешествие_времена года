@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Zanyatie4_Modyl_2_Pyteshestvie</title>
+</head>
+<style>
+body {
+    background-color:steelblue;
+ 
+}
+</style>
+<body>
+<script>
+
+var season = prompt ('Введите номер времени года, в котором вы хотели бы жить:' +
+                                                                        '\n1 - Зима;' +
+                                                                        '\n2 - Весна;' +
+                                                                        '\n3 - Лето;' +
+                                                                        '\n4 - Осень;', 1);
+switch (parseInt (season)) {
+    case 1:
+        alert ('Вы отправитесь в Антарктиду');
+        break;
+    case 2:
+        alert ('Вы отправитесь в Испанию');
+        break;
+    case 3:
+        alert ('Вы отправитесь на Мальдивы');
+        break;
+    case 4:
+        alert ('Вы отправитеcь в Ирландию');
+}
+</script>
+</body>
+</html>
