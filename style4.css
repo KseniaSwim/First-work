@@ -1,0 +1,27 @@
+body {
+display: flex;
+justify-content: center; /*выравнивание по центру, горизонталь*/
+align-items: center; /*выравнивание по центру, вертикаль*/
+min-height: 100vh;
+margin: 0;
+padding: 0;
+
+
+.btn {
+font-size: 20px;
+font-family: monospace;
+color: #062687;
+background: linear-gradient(to left, #43cea2, #185a9d, #43cea2);
+text-decoration: none;
+padding: 20px  70px;
+border-radius: 10px;
+background-size: 200%;
+transition: .5s;
+}
+
+.btn:hover {
+    background-position: right;
+}
+
+
+}
