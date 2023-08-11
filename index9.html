@@ -1,0 +1,34 @@
+твуч9ю<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zanyatie4_Mody2_4_Citaty</title>
+    <script>
+
+        var quotes = ['Я обо всем подумаю потом, когда найду в себе силы это выдержать.— Унесённые ветром (Маргарет Митчелл)',
+                    'На самом деле, жизнь проста, но мы настойчиво ее усложняем. (Конфуций)', 
+                     'Жизнь — как вождение велосипеда. Чтобы сохранить равновесие, ты должен двигаться. (Альберт Эйнштейн)']
+
+    
+    function ButtonWork() {
+        alert("Работает. Не трогай!");
+    }
+
+function quote() {
+    for(var i = 0; i < quotes.length; i++){
+        alert(quotes[i]);
+    }
+}
+    </script>
+</head>
+<body>
+
+ <h1></h1>
+    <p><input type = "text" id="NameInput"  size="40"  placeholder="Please enter some text below"></p>
+    <p><input value="Работает?" onclick="ButtonWork()"  type="button"></p>
+    <p><input value="Хм…" onclick="quote()" type="button" ></p>
+    <ul id = "textlist">
+    </ul>
+
+</body>
+</html>
